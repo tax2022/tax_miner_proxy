@@ -192,38 +192,7 @@ domain_cert: ""
 # 例如 C:/User/tmp/certs/private.key
 domain_private_key: ""
 ```
-
-#### 后台启动、进程守护、开机自启使用请看：[详细文档](start.md)
-
-## 本地加密端使用方式 视频教程[https://youtu.be/eY0PL97-20Y](https://youtu.be/eY0PL97-20Y)
-
-**使用本地端加密时候，服务器启动的config中，加密模式选 “2”**
-
-```bash
-# 加密模式
-# 0: 不启用加密，1：客户端（发送加密数据）2：服务端（接收加密数据）
-encrypt_mode: 2
 ```
-
-**前台启动**
-
-```
-local.connector -l :本地端口 -r 服务器ip:服务器端口
-```
-
-**进程守护+开机自启**
-
-```
-local.connector -l :本地端口 -r 服务器ip:服务器端口 -install
-local.connector -l :本地端口 -r 服务器ip:服务器端口 -start
-```
-
-**对于Hive系统，可以使用以下命令，会安装为开机自启**
-
-```
-bash <(curl -s https://raw.githubusercontent.com/tax0x7e7/tax_miner_proxy/master/connector.sh) -l :本地端口 -r 服务器ip:服务器端口
-```
-
 # 开发费用
 
 **对纯转发**：使用connector本地端的话，会有0.1%的开发费，如果使用ssl则免费。
