@@ -75,7 +75,7 @@
 **执行命令生成 管理控制脚本**
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/tax0x7e7/tax_miner_proxy/master/gen.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/tax2022/tax_miner_proxy/master/gen.sh)
 ```
 
 **反复执行上面的命令，输入不同路径，可以生成多个不同的管理脚本，控制多个矿池链接：**
