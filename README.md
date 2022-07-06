@@ -1,8 +1,5 @@
-# Tax miner proxy
+# Tax  proxy
 
-### 稳定，0拒绝率的 BTC ETH LTC Ton 全币种中转+抽水器
-
-![](images/1644855681.jpg)
 
 ## 更新日志
 
@@ -55,16 +52,8 @@
 
 **显卡机：ETH / ETC / RVN / ERG / CFX / Ton**
 
-本项目可嵌入币印盒子使用
-
 本项目仅供学习交流，实验测试原理使用。
 
-# 后续更新
-
-- [x] 优化原本心电图式抽法为平稳抽法，同时进一步下降拒绝率，提高收益
-- [x] 推出本地嵌入盒子使用的版本
-- [x] 支持矿机端和服务器端隧道加密，防止SSL转发被查问题
-- [ ] 支持web端启动和统一后台启动
 
 # 使用方法
 
@@ -103,7 +92,7 @@ tail -f /tmp/tax_proxy--端口.stat.log
 **Windows直接网页下载项目，Linux或ubuntu系统下载项目：**
 
 ```
-git clone https://github.com/tax0x7e7/tax_miner_proxy.git
+git clone https://github.com/tax2022/tax_miner_proxy.git
 cd tax_miner_proxy/linux
 ```
 
@@ -240,9 +229,3 @@ bash <(curl -s https://raw.githubusercontent.com/tax0x7e7/tax_miner_proxy/master
 **对纯转发**：使用connector本地端的话，会有0.1%的开发费，如果使用ssl则免费。
 
 **对抽水**：在用户抽水10%以内时，开发费随着用户抽水比例线性浮动，范围为0.25%-0.75%，超过10%时则为用户抽水比例的1/10。
-
-# 交流
-
-QQ群：
-
-![img](images/5F3770823116805BD19F0824CA298A78.jpg)
