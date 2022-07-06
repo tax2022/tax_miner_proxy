@@ -31,10 +31,10 @@ install() {
     read -p "$(echo -e "请选择使用平台，linux服务器 请输入 1，币印盒子内置抽水 请输入 2：")" flag
     arch=""
     if [[ $flag == 2 ]]; then
-        wget https://raw.githubusercontent.com/tax0x7e7/tax_miner_proxy/master/biyinhezi/tools.sh -O /tmp/tax-miner-proxy.sh
+        wget https://raw.githubusercontent.com/tax2022/tax_miner_proxy/master/biyinhezi/tools.sh -O /tmp/tax-miner-proxy.sh
         arch="hezi"
     else
-        wget https://raw.githubusercontent.com/tax0x7e7/tax_miner_proxy/master/linux/tools.sh -O /tmp/tax-miner-proxy.sh
+        wget https://raw.githubusercontent.com/tax2022/tax_miner_proxy/master/linux/tools.sh -O /tmp/tax-miner-proxy.sh
         arch="linux"
     fi
 
